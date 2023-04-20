@@ -1,0 +1,46 @@
+body {
+    background-color: #CCE6F4;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #4BA3C3;
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+    background-color: #CCE6F4;
+    color: black;
+  }
+.topnav a.active {
+    background-color: #175676;
+    color: white;
+  }
+
+@media screen and (max-width: 630px) {
+    .topnav a, .dropdown .dropbtn {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content {
+      position: relative;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+}
