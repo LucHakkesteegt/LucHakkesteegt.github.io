@@ -260,7 +260,10 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  .header {
-    width: auto;
+  .overmij3 {
+    margin-left: 15px;
+    margin-right: 10px;
+    }
+  .overmij4 
   }
 }
