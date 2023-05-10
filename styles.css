@@ -259,11 +259,8 @@ body {
   border: solid 4px black;
 }
 
-@media screen and (max-width: 480px) {
-  .overmij3 {
-    margin-left: 15px;
-    margin-right: 10px;
-    }
-  .overmij4 
+@media screen and (max-width: 720px) and (min-width: 480px) {
+  .overmij2 {
+    margin-bottom: 100px;
   }
 }
