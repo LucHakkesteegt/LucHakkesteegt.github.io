@@ -262,5 +262,10 @@ body {
 @media screen and (max-width: 480px) {
   .overmij2 {
     margin-bottom: 100px;
+    width: 350px;
+    height: 290px;
+  }
+  .tekst h2 {
+    font-size: 15px;
   }
 }
