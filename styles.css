@@ -261,6 +261,6 @@ body {
 
 @media screen and (max-width: 720px) and (min-width: 480px) {
   .overmij2 {
-    margin-bottom: 100px;
+    background-color: red;
   }
 }
