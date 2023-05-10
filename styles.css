@@ -1,4 +1,8 @@
+/* import poppins font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+/* use poppins */
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #CCE6F4;
   margin-top: 0px;
   margin-left: 0px;
@@ -42,5 +46,221 @@ body {
   }
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+}
+
+.tekst h1{
+  color: #D62839;
+  font-weight: bolder;
+}
+.tekst h2{
+  color: #175676;
+}
+.opleiding {
+  margin-top: 50px;
+}
+.github {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.github:hover {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  filter: invert(100%);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.2);
+}
+.gmail {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.gmail:hover {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  filter: invert(100%);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.2);
+}
+.outlook {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.outlook:hover {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+  filter: invert(100%);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.2);
+}
+.schoolpplaatje {
+  width: auto;
+  height: 350px;
+  margin-left: 100px;
+}
+.softwareplaatje {
+  width: auto;
+  height: 350px;
+  float: right;
+  margin-right: 150px;
+}
+.jumbopplaatje {
+  width: auto;
+  height: 350px;
+  margin-left: 150px;
+}
+.footer {
+  background: #bababa88;
+  animation: footer forwards 1.5s cubic-bezier(0.23, 1, 0.320, 1);
+  position: fixed;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  font-size: 14px;
+  border-radius: 15px;
+  color: #fff;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+#foto
+{
+  border-radius: 25px;
+  z-index: 999;
+}
+.overmij {
+  background-color: #175676;
+  color: white;
+  margin: 0 auto;
+  margin-top: 125px;
+  width: 450px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+}
+.overmij2 {
+  background-color: #175676;
+  color: white;
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 425px;
+  height: 225px;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+}
+.overmij3 {
+  background-color: #175676;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+  float: left;
+  margin-left: 225px;
+}
+.overmij4 {
+  background-color: #175676;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+  float: right;
+  margin-right: 225px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.naam {
+  margin-top: -10%;
+  color: black;
+  z-index: -1;
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  position: relative;
+}
+.naam::before, .naam::after {
+  content: '';
+  padding: 70px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: block;
+  transform: translateX(-50%) translateY(-50%) rotate(0); 
+  animation: spin 6s alternate infinite ease-in-out;
+}
+.naam::before {
+  z-index: -1;
+  border-top: 15px solid #4BA3C3;
+  border-left: 15px solid #4BA3C3;
+}
+.naam::after {
+  z-index: -1;
+  border-bottom: 15px solid #4BA3C3;
+  border-right: 15px solid #4BA3C3;
+}
+@keyframes spin{
+  100%{
+    transform: translateX(-50%) translateY(-50%) rotate(360deg); 
+  }
+}
+.snowboardplaatje {
+  width: auto;
+  height: 425px;
+  float: left;
+  margin-left: 150px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+}
+.fotohoofd {
+  width: auto;
+  height: 425px;
+  float: right;
+  margin-right: 125px;
+  border-radius: 25px;
+  z-index: 999;
+  border: solid 4px black;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: auto;
   }
 }
