@@ -48,7 +48,9 @@ body {
     display: block;
   }
 }
-
+.tekst {
+  text-align: center;
+}
 .tekst h1{
   color: #D62839;
   font-weight: bolder;
