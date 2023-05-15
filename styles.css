@@ -248,6 +248,7 @@ body {
   border-radius: 25px;
   z-index: 999;
   border: solid 4px black;
+  margin-top: -250px;
 }
 .fotohoofd {
   width: auto;
@@ -257,15 +258,58 @@ body {
   border-radius: 25px;
   z-index: 999;
   border: solid 4px black;
+  margin-top: -250px;
 }
 
 @media screen and (max-width: 480px) {
   .overmij2 {
     margin-bottom: 100px;
-    width: 350px;
-    height: 290px;
+    width: 300px;
+    height: 310px;
   }
   .tekst h2 {
     font-size: 15px;
   }
+  .overmij3 {
+    float: left;
+    margin: 0;
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .overmij4 {
+    float: left;
+    margin: 0;
+    width: 300px;
+    height: 275px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+  }
+  .naam { 
+    top: -20%;
+    font-size: 30px;
+  }
+  .naam::before, .naam::after {
+    padding: 35px;
+    margin-left: 10px;
+  }
+  .overmij {
+    width: 310px;
+    height: 200px;
+  }
+  .snowboardplaatje {
+    width: auto;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .fotohoofd {
+    width: auto;
+    height: 200px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  } 
 }
